@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "owl ui",
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "rollup": "rollup -c",
+    "tsc": "tsc",
+    "build": "npm run clean && npm run tsc && npm run rollup",
+    "clean": "rm -rf dist/* types/*"
   },
   "repository": {
     "type": "git",
