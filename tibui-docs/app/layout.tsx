@@ -3,11 +3,7 @@ import "@styles/globals.scss";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={raleway.className}>
       <head />
