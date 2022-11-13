@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import { OwlButton } from "tibui/dist/esm/index"
+import { OwlButton } from "tibui";
 
 export default function Page() {
   return (
