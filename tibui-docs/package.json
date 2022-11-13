@@ -12,11 +12,8 @@
     "@mdx-js/loader": "^2.1.5",
     "@mdx-js/react": "^2.1.5",
     "@next/font": "^13.0.3",
-<<<<<<< Updated upstream
     "@next/mdx": "^13.0.3",
-=======
     "@tibui/tibui": "file:..",
->>>>>>> Stashed changes
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
