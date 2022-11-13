@@ -1,6 +1,6 @@
 {
   "name": "@tibui/tibui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "owl ui",
   "scripts": {
     "rollup": "rollup -c",
