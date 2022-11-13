@@ -1,5 +1,5 @@
 {
-  "name": "tibui",
+  "name": "@tibui/tibui",
   "version": "1.0.0",
   "description": "owl ui",
   "scripts": {
@@ -29,11 +29,49 @@
     "tslib": "^2.4.1",
     "typescript": "^4.8.4"
   },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "./dist/cjs/index.js",
+  "exports": "./dist/esm/index.js",
   "type": "module",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "scope": "tibui",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "ansi-styles": "^3.2.1",
+    "brace-expansion": "^2.0.1",
+    "builtin-modules": "^3.3.0",
+    "chalk": "^2.4.2",
+    "color-convert": "^1.9.3",
+    "color-name": "^1.1.3",
+    "commondir": "^1.0.1",
+    "csstype": "^3.1.1",
+    "deepmerge": "^4.2.2",
+    "escape-string-regexp": "^1.0.5",
+    "fs.realpath": "^1.0.0",
+    "estree-walker": "^2.0.2",
+    "function-bind": "^1.1.1",
+    "glob": "^8.0.3",
+    "has": "^1.0.3",
+    "has-flag": "^3.0.0",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "is-builtin-module": "^3.2.0",
+    "is-core-module": "^2.11.0",
+    "is-reference": "^1.2.1",
+    "js-tokens": "^4.0.0",
+    "is-module": "^1.0.0",
+    "magic-string": "^0.26.7",
+    "loose-envify": "^1.4.0",
+    "minimatch": "^5.1.0",
+    "once": "^1.4.0",
+    "picomatch": "^2.3.1",
+    "path-parse": "^1.0.7",
+    "supports-color": "^5.5.0",
+    "resolve": "^1.22.1",
+    "sourcemap-codec": "^1.4.8",
+    "wrappy": "^1.0.2",
+    "supports-preserve-symlinks-flag": "^1.0.0"
+  }
 }
